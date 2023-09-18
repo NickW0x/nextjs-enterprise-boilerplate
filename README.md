@@ -4,12 +4,6 @@
 
 Welcome to the _Next.js Enterprise Boilerplate_, an open-source template for enterprise projects! It's loaded with features that'll help you build a high-performance, maintainable, and enjoyable app. We've done all the heavy lifting for you, so sit back, relax, and get ready to conquer the world with your incredible app! 🌍
 
-<br />
-<a href="https://discord.gg/fyWtyNKmfX" style="width: 100%; display: flex; justify-content: center;">
-  <img src="https://discordapp.com/api/guilds/1111676875782234175/widget.png?style=banner2" alt="Blazity Discord Banner"/>
-</a>
-<br />
-
 ## 📚 Features
 
 With this template, you get all the awesomeness you need:
@@ -70,27 +64,6 @@ To get started with this boilerplate, follow these steps:
 
 1. Fork & clone repository:
 
-```bash
-## Don't forget to ⭐ star and fork it first :)
-git clone https://github.com/<your_username)/next-enterprise.git
-```
-
-2. Install the dependencies:
-
-```bash
-yarn install --frozen-lockfile
-```
-
-3. Run the development server:
-
-```bash
-yarn dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-5. This project uses a git hook to enforce [conventional commits](https://github.com/qoomon/git-conventional-commits). To install the git hook, run the following command in the root directory of the project:
-
 ```sh
 brew install pre-commit
 pre-commit install -t commit-msg
@@ -145,8 +118,6 @@ This boilerplate comes with various testing setups to ensure your application's 
 - **Unit and integration tests**: Run Jest tests using `yarn test`
 - **End-to-end tests (headless mode)**: Run Playwright tests in headless mode with `yarn e2e:headless`
 - **End-to-end tests (UI mode)**: Run Playwright tests with UI using `yarn e2e:ui`
-
-<img width="1392" alt="image" src="https://user-images.githubusercontent.com/28964599/233666655-93b7d08b-2fd8-406a-b43c-44d4d96cf387.png">
 
 ### Acceptance Tests
 

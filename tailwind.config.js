@@ -16,6 +16,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '2xs': '0.625rem', // Or whatever size you want for '2xs'
+      },
       colors: {
         primary: {
           50: "#eff6ff",
@@ -65,6 +68,9 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
+        openSans: [
+          "Open Sans", "sans-serif",
+        ],
       },
       borderWidth: {
         DEFAULT: "1px",
@@ -81,6 +87,9 @@ module.exports = {
       minWidth: {
         ...defaultTheme.width,
       },
+      transitionDelay: {
+        '50': '50ms',
+      }
     },
   },
   plugins: [],
